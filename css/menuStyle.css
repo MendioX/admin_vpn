@@ -1,0 +1,110 @@
+body{
+    background-color: #d6a679 ;
+}
+.grid_menu{
+    display: grid;
+    height: 600px;
+    width: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:33% 33% 33% ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+   
+    
+}
+
+#add_usser{
+    
+    border-radius: 30px; 
+    grid-column: 1 / 4;
+}
+
+#constitucion{
+
+    grid-column:1 / 4;
+}
+
+
+.btn{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px; 
+    border: none;
+    color: white;
+    border:solid;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s; 
+
+}
+.btn:hover {opacity: 1}
+
+
+#one {
+    background-color: #b16926;
+    color: white;
+    
+    
+}
+
+#two {
+    background-color: #2C3E50;
+    color: white;
+
+}
+#three{
+    background-color: #273746;
+    color: white;
+
+}
+
+#four{
+    background-color: #273746;
+    color: white;
+
+}
+#five{
+    background-color: #273746;
+    color: white;
+}
+
+#six{
+    background-color: #273746;
+    color: white;
+
+}
+
+#seven{
+    background-color: #273746;
+    color: white;
+
+}
+
+#eight{
+    background-color: #273746;
+    color: white;
+
+
+}
+#nine{
+    background-color: #273746;
+    color: white;
+
+}
+
+#ten{
+    background-color: #273746;
+    color: white;
+
+}
+
+#eleven{
+    background-color: #273746;
+    color: white;
+
+}

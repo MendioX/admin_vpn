@@ -1,0 +1,140 @@
+body{
+    background-color: #E1DCDB;
+    
+    
+    
+
+
+
+}
+
+.form_in{
+    background-color: #2C3E50;
+    height: 500px;
+    width: 400px;
+    
+    align-content: center;
+    box-shadow: 10px 10px #26333f;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin: 10% 35%;
+  
+}
+h3{
+    color: white;
+    text-align: center;
+}
+
+#name{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    
+   
+    margin-top: 20px;
+}
+#surname{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#email{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+#sucursal{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#password{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#genPw{
+    color: white;
+    background-color: #b16926;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;}
+
+    #send{
+        color: white;
+        background-color: #b16926;
+        border-radius: 10px;
+        height: 30px;
+        width: 100%;
+        margin-top: 20px;}
+
+        .ok{
+            background-color: green;
+            color: white;
+            text-align: center;
+            
+        }
+        
+        .bad{
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        
+            width: 100%;
+           
+            
+        }
+
+
+        #popup-container{
+            
+            background-color: rgba(237, 238, 238, 0);
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 25%;
+            margin-left: 30%;
+            pointer-events: none;
+            height: 400px;
+            width: 600px;
+            
+
+        }
+
+        #popup{
+
+            background-color: rgb(213, 216, 216);
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+            padding: 5px 5px 5px 5px;
+        }
+
+        img.resize {
+            max-height: 50px;
+            max-width: 50px;
+
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            padding-top: 0%;
+            padding-bottom: 0%;
+            align-items: center;
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
