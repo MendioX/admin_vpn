@@ -89,6 +89,19 @@ switch($s){
      ?>
         
         <h2 class="bad"> ¡Por Favor Complete los campos!</h2>
+        <div id="popup-container">
+            <div id="popup">
+
+            <p id="data"><img class="resize"src="../img/sucursal.png" />Sucursal </p>
+            <p id="data"><?php echo "$s"?> </p>
+            <p id="data"><img class="resize" src="../img/usuario.png" />Usuario </p>
+            <p id="data"><?php echo "$u"?> </p>
+            <p id="data"><img class="resize" src="../img/pw.png" />Conrtraseña</p>
+            <p id="data"><?php echo "$p"?> </p>
+            </div>         
+          </div>
+        
+
         
         <?php
     
