@@ -1,15 +1,22 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
 body{
-    background-color: aqua;
+    background-color: #1C2833;
 }
 
 #box_login{
+    
 
-width: 400px;
+
+width: 600px;
 height: 400px;
 background: #1C2833;
 align-content: center;
-box-shadow: 10px 10px black;
-margin:10% 40% ;
+border-style: solid;
+border-color: rgb(1, 4, 7);
+/*box-shadow: 10px 10px black;*/
+margin:10% 30% ;
 padding: 20px 20px 20px 20px;
 
 
@@ -22,11 +29,18 @@ padding: 20px 20px 20px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    color: black;
+    border: solid;
+    border: 1px;
+    border-style: solid;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(231, 228, 223);
 
 }
 
 #box_login h3 {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
     text-align: center;
     height: 40px;
@@ -34,6 +48,7 @@ padding: 20px 20px 20px 20px;
     margin-bottom: 15px;
     border-bottom: 1px solid;
     font-size: 20px;
+    letter-spacing: 5px;
 }
 
 .btn{
@@ -43,4 +58,14 @@ padding: 20px 20px 20px 20px;
     background-color: #123593;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    transition-delay: 300ms;
+    -webkit-transition: width 1s, background 1s;
+}
+
+.btn:hover {
+    
+    font-weight: 700;
+    background-color:#2758dd ;
 }

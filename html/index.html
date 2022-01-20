@@ -5,18 +5,25 @@
 <meta charset="utf-8">
 <title>LOGIN</title>
 <link rel="stylesheet" href="../css/indexStyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    
+    <script src="../js/validacion.js"></script>
     <div id="box_login">
     <h3>Ingreso Soporte Netmart</h3>
-    <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
-    <input  class="controls"type="password" name="password" value="" placeholder="contraseña">
-    <form method="post" action="menu.html">
-    <input  class="btn" type="submit" name="" value="ingresar">
+    <form name="form" method="post" >
+    <input class="controls" id="ususario" type="text" name="usuario"  placeholder="Usuario">
+    <input  class="controls" id="password" type="password" name="password"  placeholder="Contraseña"> 
+    <input  class="btn" onclick=ir() type="button" name="" value="INGRESAR">
     </form>
     </div>
+    
+
+    
+    
 
 </body>
