@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ingresar Usuario</title>
     <link rel="stylesheet" href="../css/formStyle.css">
+<link  href="nav_bar.html" rel="import">
 
 </head>
 <body>
