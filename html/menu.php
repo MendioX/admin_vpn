@@ -61,19 +61,7 @@
 
       <div class="card">
           <div class="card-child" id="c-c-two">
-<<<<<<< HEAD:html/menu.html
-            <div class="cabecera"><H2>Elastix & Issabel</H2></div>
-            <div id="hijo"><a href="">192.168.45.250</a></div>
-            <div id="hijo"><a href="">192.168.60.198</a></div>
-            <div id="hijo"><a href="">192.168.20.250</a></div>
-            <div id="hijo"><a href="">192.168.40.198</a></div>
-            <div id="hijo"><a href="">192.168.16.250</a></div>
-            <div id="hijo"><a href="">192.168.0.250</a></div>
-            <div id="hijo"><a href="">192.168.60.250</a></div>
-            <div id="hijo"><a href="">192.168.35.250</a></div>
-=======
             <div class="cabecera"><H2>Elastix/Issabel</H2></div>
-           
             <div id="hijo"><div id="status">  </div><a href="https://192.168.0.1" target="_blank">192.168.45.250</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.60.198" target="_blank">192.168.60.198</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.20.250" target="_blank">192.168.20.250</a></div>
@@ -85,7 +73,6 @@
             <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div>
            
->>>>>>> 6ccb22540e5dd7b01a50bf75d562aa24b6ea4f9b:html/menu.php
           </div>
       </div>
 
