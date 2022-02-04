@@ -71,7 +71,7 @@
             <div id="hijo"><div id="status">  </div><a href="https://192.168.15.250" target="_blank">192.168.15.250</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.15.62" target="_blank">192.168.15.62</a> </div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div>
+             <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div>
            
           </div>
       </div>
