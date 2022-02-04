@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<head>
-</head>    
-<body>
 
-<?php
+ <?php 
+ 
+
 
 $ip= array("192.168.60.250","192.168.45.250","192.168.16.250","192.168.15.250","192.168.15.62" );
 //$ping = exec("ping -n 1 $ip[$i]",$output,$status);
@@ -31,8 +29,8 @@ for ($i=0; $i < count($ip); $i++) {
 }
 
 
+ 
+
 
 
 ?>
-
-<body>
