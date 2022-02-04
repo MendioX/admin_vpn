@@ -1,9 +1,10 @@
 body{
     background-color: #d6a679 ;
+    
 }
 .grid_menu{
     display: grid;
-    height: 600px;
+    height: 800px;
     width: auto;
     
     grid-template-columns:33% 33% 33% ;
@@ -37,7 +38,11 @@ body{
 
 #c-c-one{
     
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    justify-items: center;
+}
+#c-c-two{
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     justify-items: center;
 }
 
@@ -68,6 +73,13 @@ body{
     color: black;
     
     
+}
+
+#status{
+    display:inline-block;
+    font-size: 15px;
+    
+  
 }
 
 #c-c-one:hover{

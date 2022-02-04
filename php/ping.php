@@ -1,32 +1,30 @@
-<!DOCTYPE html>
-<head>
-</head>    
-<body>
 
-<?php
+ <?php 
+ 
 
-$ip= "192.168.60.250";
-$ping= exec("ping -n 1 $ip",$output,$status);
+ $ip = array("192.168.0.1","192.168.2.65","192.168.16.250","192.168.0.300");
+
+   
+
+//$ping= exec("ping -n 1 $ip",$output,$status);
 //echo $status;
+$j=count($ip);
 
-if ($status==0) {
-    
-    echo  '
-    
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-    width="20" height="20" viewBox="0 0 120 120">
- <circle cx="60" cy="60" r="50"
-         fill="green" />
-</svg> ';
 
-}else{
-echo '
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-     width="20" height="20" viewBox="0 0 120 120">
-  <circle cx="60" cy="60" r="50"
-          fill="red" />
-</svg> ';}
+
+
+for ($i=0; $i < $j ; $i++) { 
+$cmd= "ping -n 1 ".$ip[$i];
+pclose(popen("start /B ". $cmd, "r"));
+
+echo ('<br>');
+
+
+}
+
+
+
+
+
 
 ?>
-
-<body>
