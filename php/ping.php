@@ -5,27 +5,33 @@
 
 <?php
 
-$ip= "192.168.60.250";
-$ping= exec("ping -n 1 $ip",$output,$status);
-//echo $status;
+$ip= array("192.168.60.250","192.168.45.250","192.168.16.250","192.168.15.250","192.168.15.62" );
+//$ping = exec("ping -n 1 $ip[$i]",$output,$status);
 
-if ($status==0) {
-    
-    echo  '
-    
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-    width="20" height="20" viewBox="0 0 120 120">
- <circle cx="60" cy="60" r="50"
-         fill="green" />
-</svg> ';
+        echo("asdfasd \"\" ");
 
-}else{
-echo '
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-     width="20" height="20" viewBox="0 0 120 120">
-  <circle cx="60" cy="60" r="50"
-          fill="red" />
-</svg> ';}
+for ($i=0; $i < count($ip); $i++) { 
+
+        $cmd = "ping -n 1 ".$ip[$i];  
+        
+        
+                if (substr(php_uname(), 0, 7) == "Windows"){
+                    $ph=popen("start /B ". $cmd, "r");
+                    while (! feof($ph)) { 
+                        $s = fgets($ph,256);
+                        echo ('<pre>');
+                        echo $s;
+                        echo ('</pre>');
+                    } 
+                        pclose($ph);
+                } 
+              
+                
+        
+}
+
+
+
 
 ?>
 

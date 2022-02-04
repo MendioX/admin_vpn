@@ -40,6 +40,11 @@ body{
     grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     justify-items: center;
 }
+#c-c-two{
+    
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr ;
+    justify-items: center;
+}
 
 #hijo {
     height: 70%;
