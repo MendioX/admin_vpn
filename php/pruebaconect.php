@@ -6,5 +6,7 @@ if(!$con){
 }
 echo "Connected successfully";
 mysqli_close($con);
+ 
+
 
 ?>
