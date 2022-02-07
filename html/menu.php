@@ -11,6 +11,7 @@
 
 <body>
     <script src="../js/nav_bar.js"></script>
+    <?php include("../php/status.php"); ?>
 
     <div id="sideNavigation" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -52,8 +53,8 @@
               <div id="hijo"><a href="">Rosales</a></div>
               <div id="hijo"><a href="">Rivadavia</a></div>
               <div id="hijo"><a href="">Internacional</a></div>
-              <div id="hijo"><a href="">Viamonte</a></div>
-              <div id="hijo"><a href="">Viamonte PB</a></div>
+              <!--<div id="hijo"><a href="">Viamonte</a></div>
+              <div id="hijo"><a href="">Viamonte PB</a></div>-->
 
           </div>
       </div>
@@ -62,7 +63,7 @@
       <div class="card">
           <div class="card-child" id="c-c-two">
             <div class="cabecera"><H2>Elastix/Issabel</H2></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.0.1" target="_blank">192.168.45.250</a></div>
+            <div id="hijo"><div id="status"> inline </div><a href="https://192.168.0.1" target="_blank">192.168.45.250</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.60.198" target="_blank">192.168.60.198</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.20.250" target="_blank">192.168.20.250</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.40.198" target="_blank">192.168.40.198</a></div>
@@ -70,8 +71,8 @@
             <div id="hijo"><div id="status">  </div><a href="https://192.168.0.250" target="_blank">192.168.0.250 </a> </div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.15.250" target="_blank">192.168.15.250</a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.15.62" target="_blank">192.168.15.62</a> </div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
-             <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div>
+           <!-- <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
+            <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div> -->
            
           </div>
       </div>

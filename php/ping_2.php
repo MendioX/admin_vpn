@@ -27,6 +27,16 @@ for ($i=0; $i < count($ip); $i++) {
 pclose($ph);
 unset($s);
 unset($cadena);
+
+
 }
 
+include("conexion.php");
+$DateAndTime = date('Y-m-d h:i:s a', time());  
+
+ $consulta = "INSERT INTO status_elastix (alem, avellaneda, belgrano, constitucion, espora , rosales, rivadavia, interenacional, fecha) VALUES ('$status[0]','$status[1]','$status[2]','$status[3]','$status[4]','$status[5]','$status[6]','$status[7]','$DateAndTime')";
+
+ $resultado = mysqli_query($con,$consulta);
+ mysqli_close($con);
+ 
 ?>
