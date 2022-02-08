@@ -63,14 +63,14 @@
       <div class="card">
           <div class="card-child" id="c-c-two">
             <div class="cabecera"><H2>Elastix/Issabel</H2></div>
-            <div id="hijo"><div id="status"> inline </div><a href="https://192.168.0.1" target="_blank">192.168.45.250</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.60.198" target="_blank">192.168.60.198</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.20.250" target="_blank">192.168.20.250</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.40.198" target="_blank">192.168.40.198</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.16.250" target="_blank">192.168.16.250</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.0.250" target="_blank">192.168.0.250 </a> </div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.15.250" target="_blank">192.168.15.250</a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.15.62" target="_blank">192.168.15.62</a> </div>
+            <div id="hijo"><div id="status"> <?php echo $status['alem'];?>  </div><a href="https://192.168.0.1" target="_blank">192.168.45.250</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['avellaneda'];?>  </div><a href="https://192.168.60.198" target="_blank">192.168.60.198</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['belgrano'];?>  </div><a href="https://192.168.20.250" target="_blank">192.168.20.250</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['constitucion'];?>  </div><a href="https://192.168.40.198" target="_blank">192.168.40.198</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['espora'];?>  </div><a href="https://192.168.16.250" target="_blank">192.168.16.250</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['rosales'];?>  </div><a href="https://192.168.0.250" target="_blank">192.168.0.250 </a> </div>
+            <div id="hijo"><div id="status"> <?php echo $status['rivadavia'];?>  </div><a href="https://192.168.15.250" target="_blank">192.168.15.250</a></div>
+            <div id="hijo"><div id="status"> <?php echo $status['internacional'];?>  </div><a href="https://192.168.15.62" target="_blank">192.168.15.62</a> </div>
            <!-- <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
             <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div> -->
            
