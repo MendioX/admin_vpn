@@ -1,10 +1,15 @@
 body{
-    background-color: #d6a679 ;
+    background-image:url(../img/back_home.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     
 }
 .grid_menu{
     display: grid;
-    height: 800px;
+    height: 900px;
     width: auto;
     
     grid-template-columns:33% 33% 33% ;

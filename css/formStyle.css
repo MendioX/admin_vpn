@@ -1,20 +1,34 @@
 body{
     background-image:url(../img/back_home.jpg);
     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+}
+.grilla{
 
+    display: grid;
+    height: 900px;
+    width: auto;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 .form_in{
-    background-color: #2C3E50;
-    height: 500px;
-    width: 400px;
     
-    align-content: center;
-    box-shadow: 10px 10px #26333f;
+    background-color:  rgb(197, 195, 195);
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-    margin: 10% 35%;
-  
+    grid-column-start: 2;
+   
 }
 h3{
     color: white;

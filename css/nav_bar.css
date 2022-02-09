@@ -5,7 +5,10 @@
 }
 body{
     background-image:url(../img/back_home.jpg) ;
-   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 .sidenav {

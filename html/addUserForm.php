@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<div class="grilla">
+    
         <form class="form_in" action="" method="post" >
             <h3>Ingreso Informacion Operador</h3>
             <input id="name" type="text" name="nombre" placeholder="Nombre">
@@ -25,8 +27,6 @@
                     <option>Rivadavia</option>
                     <option>Internacional</option>
                     <option>Constitucion</option>
-                    <option>Vaimonte</option>
-                    <option>Viamonte PB</option>
                 </select>
 
             </p>
@@ -43,6 +43,7 @@
             
 
         </form>
+        </div>
         
           <?php include("../php/cargarUsuario.php")?>
     
