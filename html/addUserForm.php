@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <title>Ingresar Usuario</title>
     <link rel="stylesheet" href="../css/formStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
 
 <div class="grilla">
-    
-        <form class="form_in" action="" method="post" >
+
+    <div class="card">
+        <form id="form_in" action="" method="post" >
             <h3>Ingreso Informacion Operador</h3>
             <input id="name" type="text" name="nombre" placeholder="Nombre">
             <input id="surname" type="text" name="apellido"  placeholder="Apellido">
@@ -43,6 +47,7 @@
             
 
         </form>
+        </div>
         </div>
         
           <?php include("../php/cargarUsuario.php")?>
