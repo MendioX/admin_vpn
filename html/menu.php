@@ -71,8 +71,7 @@
             <div id="hijo"><div id="status"> <?php echo $status['rosales'];?>  </div><a href="https://192.168.0.250" target="_blank">192.168.0.250 </a> </div>
             <div id="hijo"><div id="status"> <?php echo $status['rivadavia'];?>  </div><a href="https://192.168.15.250" target="_blank">192.168.15.250</a></div>
             <div id="hijo"><div id="status"> <?php echo $status['internacional'];?>  </div><a href="https://192.168.15.62" target="_blank">192.168.15.62</a> </div>
-           <!-- <div id="hijo"><div id="status">  </div><a href="https://192.168.60.250" target="_blank">192.168.60.250 </a></div>
-            <div id="hijo"><div id="status">  </div><a href="https://192.168.35.250" target="_blank">192.168.35.250 </a></div> -->
+           
            
           </div>
       </div>
@@ -81,7 +80,16 @@
 
       <div class="card">
           <div class="card-child" id="c-c-three">
-            <div class="cabecera"><H2>Telulares</H2></div>
+            <div class="cabecera-2"><H2>Inventario</H2></div>
+            <div id="hijo"><a> Alem <p> PC: </p></a> <p> </p></div>
+            <div id="hijo"><a> Avellaneda <p> PC: </p></a></div>
+            <div id="hijo"><a> Belgrano <p> PC: </p></a></div>
+            <div id="hijo"><a> Constitucion <p> PC: </p></a></div>
+            <div id="hijo"><a> Espora <p> PC: </p></a></div>
+            <div id="hijo"><a> Rosales <p> PC: </p></a></div>
+            <div id="hijo"><a> Rivadavia <p> PC: </p></a></div>
+            <div id="hijo"><a> Internacional <p> PC: </p></a></div>
+            <div class="cabecera-2"><H2> + </H2></div>
           </div>
       </div>
 

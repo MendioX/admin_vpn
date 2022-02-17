@@ -4,18 +4,18 @@ include("conexion.php");
 
 
 
+include("gen_pw.php");
 
 if (isset($_POST['Enviar'])){
      if(strlen($_POST['nombre'])>=1 && strlen($_POST['apellido'])>=1){
 
-        
+        include("gen_user.php");
          $n=$_POST['nombre'];
          $a=$_POST['apellido'];
          $e=$_POST['email']; 
          $s=$_POST['sucursal'];
          
-        include("gen_user.php");
-        include("gen_pw.php");
+        
          $u=$username;
          $p=$password;
 
@@ -64,20 +64,13 @@ switch($s){
         if($resultado){
        
         ?>
-        
-        <h2 class="ok"> usuario guardado con exito!</h2>
-        <div id="popup-container">
-            <div id="popup">
+        <div class= "ok">
+        <h2 > Usuario guardado con exito!</h2>
 
-            <p id="data"><img class="resize"src="../img/sucursal.png" />Sucursal </p>
-            <p id="data"><?php echo "$s"?> </p>
-            <p id="data"><img class="resize" src="../img/usuario.png" />Usuario </p>
-            <p id="data"><?php echo "$u"?> </p>
-            <p id="data"><img class="resize" src="../img/pw.png" />Conrtraseña</p>
+        <p id="data"><?php echo "$u"?> </p>
             <p id="data"><?php echo "$p"?> </p>
-            </div>         
-          </div>
-
+      
+            </div>
         <?php
      } else {
         ?>
@@ -89,17 +82,17 @@ switch($s){
      ?>
         
         <h2 class="bad"> ¡Por Favor Complete los campos!</h2>
-        <div id="popup-container">
+       <!--   <div id="popup-container">
             <div id="popup">
 
-            <p id="data"><img class="resize"src="../img/sucursal.png" />Sucursal </p>
-            <p id="data"><?php echo "$s"?> </p>
+          <p id="data"><img class="resize"src="../img/sucursal.png" />Sucursal </p>
+            <p id="data"> </p>
             <p id="data"><img class="resize" src="../img/usuario.png" />Usuario </p>
-            <p id="data"><?php echo "$u"?> </p>
+            <p id="data"> </p>
             <p id="data"><img class="resize" src="../img/pw.png" />Conrtraseña</p>
-            <p id="data"><?php echo "$p"?> </p>
+            <p id="data"> </p>
             </div>         
-          </div>
+          </div> --> 
         
 
         
@@ -108,5 +101,12 @@ switch($s){
 }
 
 }
+
 mysqli_close($con);
+unset ($n);
+unset ($a);
+unset ($e);
+unset ($u);
+unset ($p);
+unset ($consulta);
 ?>

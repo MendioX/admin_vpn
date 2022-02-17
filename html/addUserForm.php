@@ -35,13 +35,11 @@
 
             </p>
             
-    <!--
-            <input id="user" type="text" name="user" value="<?php include("../php/gen_user.php") ?>" placeholder="Usuario" >
-            <input id="password" type="text" name="password" value="<?php include("../php/gen_pw.php")?>" placeholder="Contraseña" >
+   
+            
            
            
-            <input id="send" type="button" method="get" name="Refresh" value="user & pw">      
-            -->     
+             
             <input id="send"  type="submit" name="Enviar">        
                    
             

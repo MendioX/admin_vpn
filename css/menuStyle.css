@@ -51,6 +51,14 @@ body{
     justify-items: center;
 }
 
+.card-child#c-c-three{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    
+    justify-items: center;
+}
+
+
 #hijo {
     height: 70%;
     width: 100%;
@@ -70,6 +78,17 @@ body{
     text-align: center;
     background-color:rgb(197, 195, 195); 
     color: white;
+}
+
+.cabecera-2{
+    width: 100%;
+    border-bottom: solid;
+    border-color: rgb(197, 195, 195);
+    text-align: center;
+    background-color:rgb(197, 195, 195); 
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 #hijo a{
